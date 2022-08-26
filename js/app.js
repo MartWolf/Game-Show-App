@@ -49,7 +49,7 @@ function addPhraseToDisplay(array) {
             
             phrase_ul.appendChild(li);
             li.innerHTML = li.innerHTML + array[i];
-
+            li.classList.add("space");
         }
         else {
             phrase_ul.appendChild(li);
